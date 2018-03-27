@@ -21,6 +21,36 @@ public class Calculate2 {
     }
 
     /**
+     Вычитаем аргументы.
+     @param params Аргументы вычитания.
+     */
+    public void substraction(int ... params){
+        for (Integer param: params) {
+            this.result -= param;
+        }
+    }
+
+    /**
+     Делим аргументы.
+     @param params Аргументы деления.
+     */
+    public void division(int ... params){
+        for (Integer param: params) {
+            this.result /= param;
+        }
+    }
+
+    /**
+     Умножаем аргументы.
+     @param params Аргументы умножения.
+     */
+    public void multiply(int ... params){
+        for (Integer param: params) {
+            this.result *= param;
+        }
+    }
+
+    /**
      Получить результат.
      @return результат вычисления
      */
